@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'New Comic Title Condensed';
+    src: url('newcomictitlecond.ttf');
+     }  
+
+body{
+    font-family: New Comic Title Condensed ;
+    background-color: rgb(216, 209, 183);
+}
+
+.memorial{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.exc{
+    background-color: black;
+    color: rgb(216, 209, 183);
+    
+}
+
+.cim{
+   grid-row-start: 1; 
+   grid-column-start: 2;
+}
+.egesz{
+    display: grid;
+    grid-template-columns: 300px 300px 350px 300px ;
+    grid-template-rows: 100px 300px 200px 400px 200px;
+}
+
+.hp{
+   grid-column-start: 2;
+   grid-row-start: 2; 
+   grid-column-end: 2;
+   grid-row-end: 2;
+   background-color: black;
+   margin-top: 45px;
+   margin-left: -300px;
+   margin-right: 140px;
+}
+
+.hpp{
+    grid-column-start: 1;
+    grid-row-start: 2; 
+    grid-column-end: 1;
+    grid-row-end: 2;
+    color: rgb(216, 209, 183);
+    font-size: 150px;
+    margin-top: 50px; 
+    margin-right: 140;
+    margin-left: -300;
+    text-align: justify;
+}
+
+.vo{
+    grid-column-start: 2;
+    grid-row-start: 2; 
+    grid-column-end: 5;
+    grid-row-end: 2;
+    grid-row-end: auto;
+    margin-right: 300px;
+}
+
+.harry{
+    width: 200px;
+    float: right;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.hszoveg{
+    font-size: 70px;
+    margin-top: 45px;
+    text-align: justify;
+    margin-right: 1px;
+    margin-left: 180px;
+}
+
+.nevil{
+    grid-row-start: 1; 
+    grid-column-start: 1;
+    grid-row-end: 1;
+    grid-column-end: 1;
+}
+
+.nev{
+    float: right;
+    margin-top: 29px;
+}
+
+.nszoveg{
+    margin-top: 29px;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.suveg{
+    float: left;
+}
+
+.pageot{
+    grid-column-start: 4;
+    grid-row-start: 2; 
+    grid-column-end: 5;
+    grid-row-end: 5;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.otos{
+    font-size: 30px;
+}
+
+.fbetu{
+    float: left;
+    width: 50px;
+}
+
+.python{
+    grid-column-start: 2;
+    grid-row-start: 3; 
+}
+
+
+.ujj{
+    width: 100px;
+    float: left;
+}
+
+.true{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-end: 1;
+    grid-row-end: 4;
+    margin-top: -250px;
+    font-size: 50px;
+}
+
+
+.naptar{
+    font-family: Bantorain Bold;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-end: 1;
+    grid-row-end: 4;
+    
+    
+}
+
+ul#napok li{
+    display: inline;
+    list-style-type: none;
+    letter-spacing: 30px;
+    margin-left: 1px;
+}
+
+.dec{
+    margin-left: 100px;
+    
+}
+
+.alja{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-column-end: 5;
+    grid-row-end: 4;
+    margin-top: 200px;
+}
+
+.full{
+    float: right;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-column-end: 4;
+    grid-row-end: 5;
+}
+
+.pszoveg{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 5;
+    margin-left: 100px;
+    margin-top: 180px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 10px;
+}
+
+.real{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 5;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.mcc{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 5;
+    margin-left: 100px;
+    margin-top: 250px;s
+}
+
+.mc{
+    width: 150px;
+    float: left;
+}
+
+.mcszoveg{
+    font-size: 30px;
+}
+
+.hr{
+    border: 1px solid black;
+}
+
+.duplaw{
+    float: left;
+    width: 50px;
+}
+
+.vegeujj{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 5;
+    float: right;
+    width: 70px;
+}
